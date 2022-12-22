@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #6d9773;
+    display: flex;
+    flex-direction: row;
+    
+}
+h1{
+    font-weight: 800;
+    color: white;
+}
+p{
+    font-weight: 400;
+    color: white;
+}
+.content{
+    margin: 100px 50px;
+}
+.content h1{
+    font-size: 65px;
+}
+.content ul{
+    position: absolute;
+    bottom: 100px;
+    list-style: none;
+}
+li p{
+    font-size: 25px;
+}
+.main img{
+    width: 50%;
+    height: 100vh;
+    object-fit: contain;
+}
